@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@100;200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #eee; }
+
+img {
+  width: 100%; }
+
+.wrapper {
+  width: 80%;
+  margin: auto; }
+
+.header {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 50px);
+  grid-gap: 1rem; }
+
+.title {
+  font-family: 'PT Serif';
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000; }
+
+.blurb {
+  margin-top: 0.8rem;
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  line-height: 27px; }
+  .blurb h4 {
+    margin-bottom: 1.3rem;
+    text-transform: uppercase; }
+
+.name {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 27px; }
+
+.job_title {
+  font-family: 'PT Serif';
+  font-size: 0.9rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  height: 300px;
+  margin-left: 102%; }
+
+.team {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 6rem; }
+
+.person_1 {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1; }
+
+.person_2 {
+  position: relative;
+  margin-top: 10rem;
+  grid-column: 2;
+  grid-row: 1; }
+
+.person_3 {
+  position: relative;
+  grid-column: 3;
+  grid-row: 1; }
+
+.person_4 {
+  position: relative;
+  grid-column: 1;
+  grid-row: 2; }
+
+.person_5 {
+  position: relative;
+  margin-top: 10rem;
+  grid-column: 2;
+  grid-row: 2; }
+
+.person_6 {
+  position: relative;
+  grid-column: 3;
+  grid-row: 2; }
+
+.brand {
+  margin-top: 2rem;
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 1rem; }
+
+@media only screen and (max-width: 1024px) {
+  .team {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3rem; }
+  .title {
+    font-size: 1.2rem; }
+  .blurb {
+    font-size: 1rem; }
+  .job_title {
+    font-family: 'PT Serif';
+    font-size: 0.7rem; }
+  .name {
+    font-size: 0.7rem; } }
+
+@media only screen and (max-width: 767px) {
+  .header {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem; }
+  .team {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3rem; }
+  .title {
+    font-size: 1.2rem; }
+  .blurb {
+    font-size: 1rem; }
+  .job_title {
+    font-family: 'PT Serif';
+    font-size: 0.7rem; }
+  .name {
+    font-size: 0.7rem; }
+  .person_1 {
+    position: relative; }
+  .person_2 {
+    position: relative;
+    margin-top: 3rem; }
+  .person_3 {
+    position: relative;
+    grid-column: 1;
+    grid-row: 2; }
+  .person_4 {
+    margin-top: 3rem;
+    position: relative;
+    grid-column: 2;
+    grid-row: 2; }
+  .person_5 {
+    margin-top: -3rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3; }
+  .person_6 {
+    margin-top: 3rem;
+    position: relative;
+    grid-column: 2;
+    grid-row: 3; } }
